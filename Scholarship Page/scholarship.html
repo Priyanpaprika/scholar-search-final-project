@@ -25,28 +25,41 @@
 	<h2>The largest Local Scholarship Database: Just input what type of scholarships you are looking for and we will take care of the rest!</h2>
 
 	
-<div class="paragraph">
-	<br>
-<h3>Choose What you are looking for:</h2>
-	<br>
-		<form method="post" action="http://server1">
-		  Easy to Apply Scholarships
-		  <input type="text" name="address">
-		  <br/>
-		  Merit Based Scholarships
-		  <input type="text" name="address">
-		  <br/>
-		  Minority Based Scholarships
-		  <input type="text" name="city">
-		  <br/>
-		  Scholarships Based on Location
-		  <input type="text" name="state">
-		  <br/>
-		  Scholarships Based on School
-		  <input type="text" name="age">
-		  <br/>
-		  <input type="submit" value="Submit">
-		</form>
+<form method="post" action="http://server1">
+
+  <fieldset>
+    <legend>What Type of Scholarships are You Looking For?</legend>
+
+    <label class="radio-option">
+      <input type="radio" name="scholarship_type" value="easy">
+      Easy-to-Apply Scholarships
+    </label>
+
+    <label class="radio-option">
+      <input type="radio" name="scholarship_type" value="merit">
+      Merit-Based Scholarships
+    </label>
+
+    <label class="radio-option">
+      <input type="radio" name="scholarship_type" value="minority">
+      Minority-Based Scholarships
+    </label>
+
+    <label class="radio-option">
+      <input type="radio" name="scholarship_type" value="location">
+      Scholarships Based on Location
+    </label>
+
+    <label class="radio-option">
+      <input type="radio" name="scholarship_type" value="school">
+      Scholarships Based on School
+    </label>
+
+  </fieldset>
+
+  <input type="submit" value="Find Scholarships" class="cta-button">
+
+</form>
 
 </div>
 	
