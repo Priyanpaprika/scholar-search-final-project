@@ -202,3 +202,35 @@ margin-bottom: 16px;
 .container > h2 {
 font-size: 1.2rem;
 }
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 32px;
+}
+
+legend {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: #F4F7FF;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.radio-option input[type=\"radio\"] {
+  accent-color: var(blue-primary);
+}
+
+.radio-option:hover {
+  background: #EAF1FF;
+}
