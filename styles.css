@@ -206,6 +206,7 @@ body {
 
 .cta-button:hover {
   background: #1648CC;
+  color: #FFFFFF; 
 }
 
 .hero-image {
