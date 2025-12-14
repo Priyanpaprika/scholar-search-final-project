@@ -149,11 +149,7 @@ html, body {
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(
-    180deg,
-    var(--blue-soft) 0%,
-    #FFFFFF 70%
-  );
+  background: linear-gradient( 180deg, var(blue-soft) 0%,#FFFFFF 70%);
   color: var(text-dark);
 }
 
@@ -179,7 +175,7 @@ body {
 .nav a {
   margin-left: 24px;
   text-decoration: none;
-  color: var(--text-dark);
+  color: var(text-dark);
   font-weight: 500;
 }
 
@@ -233,7 +229,7 @@ form input[type="text"] {
 }
 
 form input[type="submit"] {
-  background: var(--blue-primary);
+  background: var(blue-primary);
   color: white;
   border: none;
   padding: 14px 32px;
